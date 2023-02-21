@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+    color: #fff;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    background-color: #000;
+    min-height: 500px;
+    padding: 20px;
+}
+.row{
+    border: 1px solid #fff;
+    padding: 12px;
+}
+h1{
+    border: 1px solid #fff;
+    color: red;
+    margin: 0 0 20px;
+}
