@@ -54,7 +54,7 @@ let digitalClock = setInterval(() =>{
     ${date.getMinutes() < 10 ? "0"+ date.getMinutes() : date.getMinutes()} : 
     ${date.getSeconds() < 10 ? "0"+ date.getSeconds() : date.getSeconds()}`;
 
-    if (date.getHours() > 12){
+    if (date.getHours() >= 12){
         pmCircle.style.background = "red";
     }else{
         amCircle.style.background = "red";
