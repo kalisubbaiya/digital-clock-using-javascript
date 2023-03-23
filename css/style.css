@@ -32,6 +32,7 @@ h1{
 }
 #timeDisplay{
     width: 70%;
+    position: relative;
 }
 .session{
     width: 30%;
@@ -55,4 +56,26 @@ h1{
 #amSession, #pmSession{
     color: #fff;
     font-weight: 100;
+}
+#dateDisplay{
+    position: relative;
+}
+#dateDisplay::after{
+    position: absolute;
+    content: "Date : Month : Year";
+    width: 100%;
+    top: -40%;
+    left: 0;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 12px;
+}
+#timeDisplay::before{
+    position: absolute;
+    content: "Hour : Minute : Second";
+    width: 100%;
+    top: -100%;
+    left: 0;
+    font-size: 16px;
+    color: #fff;
 }
